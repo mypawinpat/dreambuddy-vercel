@@ -1,4 +1,4 @@
-// middleware/auth.ts
+// middleware/guest.ts
 export default defineNuxtRouteMiddleware(async (to, from) => {
   const { user, fetchUser } = useAuth()
 
@@ -7,8 +7,8 @@ export default defineNuxtRouteMiddleware(async (to, from) => {
     await fetchUser()
   }
 
-  // ถ้ายังไม่มี user อีก แสดงว่าไม่ได้ login
-  if (!user.value) {
-    return navigateTo('/auth/login')
+  // ถ้ามี user อยู่แล้ว แสดงว่าเข้าสู่ระบบแล้ว ให้ไปที่หน้า /goals
+  if (user.value) {
+    return navigateTo('/goals')
   }
 })

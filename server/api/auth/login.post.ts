@@ -1,7 +1,7 @@
-// import { prisma } from "../../utils/prisma"
-import { prisma } from "../utils/prisma"
-// import { verifyPassword, signToken, setAuthCookie } from "../../utils/auth"
-import { verifyPassword, signToken, setAuthCookie } from "../utils/auth"
+import { prisma } from "../../utils/prisma"
+// import { prisma } from "../utils/prisma"
+import { verifyPassword, signToken, setAuthCookie } from "../../utils/auth"
+// import { verifyPassword, signToken, setAuthCookie } from "../utils/auth"
 import { z } from "zod"
 
 const loginSchema = z.object({

@@ -5,7 +5,9 @@
     "community": "Community",
     "testimonials": "Testimonials",
     "signIn": "Sign In",
-    "startFree": "Start Free"
+    "startFree": "Start Free",
+    "explore": "Explore",
+    "myGoals": "My Goals"
   },
   "hero": {
     "badge": "#1 Savings Goal Tracker",
@@ -162,7 +164,7 @@
       "terms": "Terms of Service",
       "cookies": "Cookies"
     }
-  },
+  },                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
   "auth": {
     "backToHome": "Back to Homepage",
     "leftPanel": {

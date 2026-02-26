@@ -2,9 +2,9 @@
 const items = ref(['System', 'Light', 'Dark'])
 const value = ref(['System'])
 
-definePageMeta({
-  middleware: 'auth'
-})
+// definePageMeta({
+//   middleware: 'auth'
+// })
 
 useHead({
   title: 'DreamBuddy - Turn Your Dreams Into Reality',

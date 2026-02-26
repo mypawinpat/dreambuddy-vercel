@@ -1,4 +1,5 @@
-import { verifyToken } from "../api/utils/auth"
+// import { verifyToken } from "../api/utils/auth"
+import { verifyToken } from "../utils/auth"
 
 export default defineEventHandler((event) => {
     // console.log("Auth middleware triggered")
